@@ -5,9 +5,9 @@
 1. Start creating a new Value Resource, called Style.xml. This Resource is our theme for the SplashActivity.
 	* Resources\values\Style.xml
 
-2. For each language that you want, add a new Drawable Resource, remember, on Xamarin the language ID have a "-r" char, like Brazilian Portugease "drawable-pt-rBR" or Canadian English "drawable-en-rCA" 
+2. For each language that you want, add a new Drawable Resource, remember, on Xamarin the language ID have a "-r" char, like Portuguese, Brazil "drawable-pt-rBR" or English, Canada "drawable-en-rCA" 
 	* List of [locales codes](https://web.archive.org/web/20120814113314/http://colincooper.net/blog/2011/02/17/android-supported-language-and-locales/)
-	* In this sample we renate the iamge to "splash_logo" (Resources\Drawable\splash_logo.png)
+	* In this sample we rename the image to "splash_logo" (Resources\Drawable\splash_logo.png)
 
 3. Create a new XML file on the default drawable folder, for the splash image layer.
 ```
