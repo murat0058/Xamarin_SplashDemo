@@ -10,20 +10,19 @@
 	* In this sample we rename the image to "splash_logo" (Resources\Drawable\splash_logo.png)
 
 3. Create a new XML file on the default drawable folder, for the splash image layer.
-```
-<?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-  <item>
-    <color android:color="#FFFFFF"/>
-  </item>
-  <item>
-    <bitmap
-        android:src="@drawable/splash_logo"
-        android:tileMode="disabled"
-        android:gravity="center"/>
-  </item>
-</layer-list>
-```
-
+	```
+	<?xml version="1.0" encoding="utf-8"?>
+	<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+  		<item>
+    			<color android:color="#FFFFFF"/>
+  		</item>
+  		<item>
+    		<bitmap
+        		android:src="@drawable/splash_logo"
+        		android:tileMode="disabled"
+        		android:gravity="center"/>
+  		</item>
+	</layer-list>
+	```
 4. Now, create a new Activity, in this case we will call "SplashActivity". This Activity will be the "Main Activity", responsible for initialize our app.
 
